@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background: #548687;
+    text-align: center;
+
+}
+
+.heading {
+ height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  padding: 0 20px;
+}
+
+.container {
+ height: 70vh;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.game {
+ height: 60vmin;
+ width: 60vmin;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 8vmin;
+    color: white;
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.box:hover {
+  background: linear-gradient(135deg, #2980b9, #1f618d);
+  transform: scale(1.05);
+}
+
+#reset-btn {
+  background: linear-gradient(135deg, #9b59b6, #8e44ad); /* Purple gradient */
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#reset-btn:hover  {
+background: linear-gradient(135deg, #8e44ad, #6c3483);
+  transform: scale(1.05);
+}
+
+#new-btn {
+  background: linear-gradient(135deg, #9b59b6, #8e44ad); /* Purple gradient */
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#new-btn:hover {
+  background: linear-gradient(135deg, #8e44ad, #6c3483);
+  transform: scale(1.05);
+}
+
+#msg {
+    color: #ffffc7;
+    font-size: 5vmin;
+    color: green;
+    border-radius: 1rem;
+    border: none; 
+}
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide{
+    display: none;
+}
+
+
+/* Mode Button */
+#mode-btn {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  border: none;
+  position:absolute;
+  top: 12px;
+  right: 15px;
+  font-size: 18px;
+  padding:12px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#mode-btn:hover {
+  transform: scale(1.1);
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #1e1e2e;
+  color: #eaeaea;
+}
+
+.dark-mode .header {
+  background: #333; /* dark header */
+}
+
+.dark-mode #mode-btn {
+  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+}
