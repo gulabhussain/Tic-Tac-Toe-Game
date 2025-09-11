@@ -27,5 +27,5 @@ Play against a friend or enjoy the classic 2-player mode on the same device.
 ---
 
 ## 📸 Screenshots
-![Game Screenshot](screenshot Of This Game.png)
+![Game Screenshot](screenshot.png)
 
