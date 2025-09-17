@@ -54,6 +54,7 @@ const showWinner = (winner) =>{
 msg.innerText = `Congratulations, Winner is ${winner}`;
 msg.style.Color="green"
 msgContainer.classList.remove("hide");
+newGameBtn.innerText="New Game."
 };
 
 const drawGame = () =>{      // for draw
@@ -111,5 +112,6 @@ modeBtn.addEventListener("click", () => {
     modeBtn.innerText = "🌙"; // moon icon
   }
 });
+
 
 //Gulab Hussain
